@@ -32,7 +32,9 @@ create-cluster-local-kubernetes/
 - create-cluster-local.sh: O script principal que concentra todo o processo de criação do cluster. Ele oferece a flexibilidade de adicionar ou remover extensões de acordo com as suas preferências.
 
 ## 💻 VM de Teste
-No diretório também existe um arquivo chamado Vagrantfile, ele serve para subi uma vm de teste usando o Fedora 37 no VirtualBox
+No diretório também existe um arquivo chamado Vagrantfile, ele serve para subi uma vm de teste usando o Fedora 37 no VirtualBox.
+- Para subir a vm basta rodar o comando: ```vagrant up```.
+- Depois que subir só precisa acessar a vm via ssh utilizando o comando: ```vagrant ssh```.
 
 ## 🤝 Colaborador
 
